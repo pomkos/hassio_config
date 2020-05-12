@@ -1,0 +1,35 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+frontend:
+   themes: !include_dir_merge_named themes
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+### INTEGRATIONS ###
+spotcast:
+  username: !secret spotify_user
+  password: !secret spotify_pass
+  
+spotify:
+  client_id: !secret spotify_id
+  client_secret: !secret spotify_secret
+
+### SENSORS ###
+sensor:
+  - platform: qbittorrent
+    url: 'http://192.168.1.194:6523'
+    username: !secret torrent_user
+    password: !secret torrent_pass
+    
