@@ -26,10 +26,77 @@ spotify:
   client_id: !secret spotify_id
   client_secret: !secret spotify_secret
 
+telegram_bot:
+  - platform: polling
+    api_key: !secret telegram_api
+    allowed_chat_ids:
+      - !secret tg_me
+      - !secret tg_matt
+      - !secret tg_mom
+      - !secret tg_autobot_channel
+      - !secret tg_cat_group
+
+weather:
+  - platform: openweathermap # https://www.home-assistant.io/integrations/openweathermap/
+    api_key: !secret openweathermap_api
+
+wyzeapi:
+  username: !secret wyze_user
+  password: !secret wyze_pass
+
+### NOTIFIER ###
+notify:
+  - name: notify_me
+    platform: telegram
+    chat_id: !secret tg_me
+  - name: notify_matt
+    platform: telegram
+    chat_id: !secret tg_matt
+  - name: notify_mom
+    platform: telegram
+    chat_id: !secret tg_mom
+  - name: notify_autobot_channel
+    platform: telegram
+    chat_id: !secret tg_autobot_channel
+  - name: notify_cat_group
+    platform: telegram
+    chat_id: !secret tg_cat_group
+
 ### SENSORS ###
+binary_sensor:
+  - platform: wyzesense
+    device: auto
+
+camera:
+  - platform: generic
+    still_image_url: https://d1941uuft27pfg.cloudfront.net/breed-uploads/2018/08/munchkin-card-small.jpg?bust=1535569704
+    stream_source: !secret camera_url
+    name: front_camera
+  - platform: mjpeg
+    mjpeg_url: !secret wyze_cam1
+    name: wyze_cam1
+  - platform: mjpeg
+    mjpeg_url: !secret wyze_cam2
+    name: wyze_cam2
+  
 sensor:
   - platform: qbittorrent
     url: 'http://192.168.1.194:6523'
     username: !secret torrent_user
     password: !secret torrent_pass
-    
+  - platform: plex_recently_added
+    token: !secret plex_token
+    host: 192.168.1.241
+    port: 32400
+  - platform: google_wifi
+    host: '192.168.1.1'
+  - platform: systemmonitor
+    resources:
+      - type: disk_use_percent
+        arg: /home
+      - type: memory_free
+  - platform: opensky # https://www.home-assistant.io/integrations/opensky/
+    radius: 10
+  - platform: aftership
+    api_key: !secret aftership_api
+stream:

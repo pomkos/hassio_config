@@ -1,0 +1,4 @@
+'1589470505875':
+  alias: Movie Time Script
+  sequence:
+  - scene: scene.movie_time
