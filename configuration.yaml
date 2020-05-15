@@ -43,7 +43,10 @@ weather:
 wyzeapi:
   username: !secret wyze_user
   password: !secret wyze_pass
-
+  # sensors: false # exclude sensors since they are 
+  # light: true
+  # switch: true
+  
 ### NOTIFIER ###
 notify:
   - name: notify_me
@@ -80,23 +83,34 @@ camera:
     name: wyze_cam2
   
 sensor:
-  - platform: qbittorrent
-    url: 'http://192.168.1.194:6523'
-    username: !secret torrent_user
-    password: !secret torrent_pass
+  - platform: aftership
+    api_key: !secret aftership_api
+  - platform: google_wifi
+    host: '192.168.1.1'
   - platform: plex_recently_added
     token: !secret plex_token
     host: 192.168.1.241
     port: 32400
-  - platform: google_wifi
-    host: '192.168.1.1'
+  - platform: qbittorrent
+    url: 'http://192.168.1.194:6523'
+    username: !secret torrent_user
+    password: !secret torrent_pass
   - platform: systemmonitor
     resources:
       - type: disk_use_percent
         arg: /home
       - type: memory_free
+      - type: processor_use
+      - type: last_boot
+      - type: network_in
+        arg: wlan0
+      - type: network_out
+        arg: wlan0
+      - type: ipv4_address
+        arg: wlan0
   - platform: opensky # https://www.home-assistant.io/integrations/opensky/
-    radius: 10
-  - platform: aftership
-    api_key: !secret aftership_api
+    radius: 50
+    latitude: !secret latitude
+    longitude: !secret longitude
+    altitude: 0
 stream:

@@ -113,7 +113,7 @@
   - data: {}
     entity_id: light.basement_light_2
     service: light.turn_on
-  - delay: 5 min
+  - delay: 00:05:00
   - data: {}
     entity_id: light.basement_light_2
     service: light.turn_off
@@ -149,3 +149,18 @@
   - data_template:
       entity_id: '{{ trigger.json.entity_id }}'
     service_template: '{{ trigger.json.service }}'
+- id: '1589550293183'
+  alias: Opensky Notifications
+  description: ''
+  trigger:
+  - event_data: {}
+    event_type: opensky_entry
+    platform: event
+  condition: []
+  action:
+  - data:
+      message: 'Flight entry of {{ trigger.event.data.callsign }} '
+    service: notify.mobile_app_pixel_3_xl
+  - data:
+      message: 'Flight entry of {{ trigger.event.data.callsign }} '
+    service: notify.notify_me
