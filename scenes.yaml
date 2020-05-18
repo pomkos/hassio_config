@@ -1,447 +1,3 @@
-- id: '1589337095829'
-  name: Night Time
-  entities:
-    light.ledvance_a19_rgbw_1b3c0100_level_light_color_on_off:
-      brightness: 254
-      color_temp: 228
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW 1b3c0100 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_a19_rgbw_1fcc0100_level_light_color_on_off:
-      brightness: 254
-      color_temp: 222
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW 1fcc0100 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_a19_rgbw_254a0100_level_light_color_on_off:
-      brightness: 251
-      color_temp: 478
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW 254a0100 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_a19_rgbw_df400100_level_light_color_on_off:
-      brightness: 254
-      color_temp: 481
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW df400100 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_br30_rgbw_128a0500_level_light_color_on_off:
-      brightness: 254
-      color_temp: 456
-      friendly_name: LEDVANCE BR30 RGBW 128a0500 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_br30_rgbw_237a0500_level_light_color_on_off:
-      brightness: 254
-      color_temp: 484
-      friendly_name: LEDVANCE BR30 RGBW 237a0500 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_br30_rgbw_4d700500_level_light_color_on_off:
-      brightness: 253
-      color_temp: 477
-      friendly_name: LEDVANCE BR30 RGBW 4d700500 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_br30_rgbw_7f920500_level_light_color_on_off:
-      brightness: 223
-      color_temp: 477
-      friendly_name: LEDVANCE BR30 RGBW 7f920500 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.527
-      - 0.447
-    light.ledvance_br30_rgbw_e8920500_level_light_color_on_off:
-      brightness: 248
-      color_temp: 477
-      friendly_name: LEDVANCE BR30 RGBW e8920500 level, light_color, on_off
-      hs_color:
-      - 45
-      - 100
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 191
-      - 0
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.527
-      - 0.447
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_3d5897fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 370
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 3d5897fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_5891d7fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 370
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 5891d7fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_854090fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 370
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 854090fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_91c594fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 370
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 91c594fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-- id: '1589337168539'
-  name: Day Time
-  entities:
-    light.ledvance_a19_rgbw_1b3c0100_level_light_color_on_off:
-      brightness: 254
-      color_temp: 228
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW 1b3c0100 level, light_color, on_off
-      hs_color:
-      - 360
-      - 0
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_a19_rgbw_1fcc0100_level_light_color_on_off:
-      brightness: 254
-      color_temp: 222
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW 1fcc0100 level, light_color, on_off
-      hs_color:
-      - 360
-      - 0
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_a19_rgbw_254a0100_level_light_color_on_off:
-      brightness: 251
-      color_temp: 222
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW 254a0100 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_a19_rgbw_df400100_level_light_color_on_off:
-      brightness: 254
-      color_temp: 224
-      effect_list:
-      - colorloop
-      friendly_name: LEDVANCE A19 RGBW df400100 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 153
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 63
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_br30_rgbw_128a0500_level_light_color_on_off:
-      brightness: 248
-      color_temp: 231
-      friendly_name: LEDVANCE BR30 RGBW 128a0500 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_br30_rgbw_237a0500_level_light_color_on_off:
-      brightness: 247
-      color_temp: 215
-      friendly_name: LEDVANCE BR30 RGBW 237a0500 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_br30_rgbw_4d700500_level_light_color_on_off:
-      brightness: 254
-      color_temp: 225
-      friendly_name: LEDVANCE BR30 RGBW 4d700500 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_br30_rgbw_7f920500_level_light_color_on_off:
-      brightness: 254
-      color_temp: 218
-      friendly_name: LEDVANCE BR30 RGBW 7f920500 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.323
-      - 0.329
-    light.ledvance_br30_rgbw_e8920500_level_light_color_on_off:
-      brightness: 248
-      color_temp: 222
-      friendly_name: LEDVANCE BR30 RGBW e8920500 level, light_color, on_off
-      hs_color:
-      - 0
-      - 0
-      max_mireds: 666
-      min_mireds: 142
-      off_brightness:
-      rgb_color:
-      - 255
-      - 255
-      - 255
-      state: 'on'
-      supported_features: 59
-      xy_color:
-      - 0.323
-      - 0.329
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_3d5897fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 153
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 3d5897fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_5891d7fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 153
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 5891d7fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_854090fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 153
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 854090fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
-    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_91c594fe_level_light_color_on_off:
-      brightness: 254
-      color_temp: 153
-      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 91c594fe level, light_color,
-        on_off
-      max_mireds: 370
-      min_mireds: 153
-      off_brightness:
-      state: 'on'
-      supported_features: 43
 - id: '1589468695164'
   name: Movie Time
   entities:
@@ -546,7 +102,7 @@
       - 0.299
     light.ledvance_br30_rgbw_7f920500_level_light_color_on_off:
       brightness: 94
-      color_temp: 407
+      color_temp: 393
       friendly_name: LEDVANCE BR30 RGBW 7f920500 level, light_color, on_off
       hs_color:
       - 360
@@ -582,15 +138,729 @@
       xy_color:
       - 0.701
       - 0.299
-    media_player.big_tv:
-      app_id: CC1AD845
-      app_name: Default Media Receiver
-      entity_picture_local:
-      friendly_name: Big Tv
-      is_volume_muted: false
-      media_content_id: https://www.home-assistant.io/images/cast/splash.png
-      media_position: 0
-      media_position_updated_at: '2020-05-14T15:42:00.429080+00:00'
-      state: idle
-      supported_features: 21391
-      volume_level: 0.8000000715255737
+- id: '1589816746906'
+  name: Day Time
+  entities:
+    light.ledvance_a19_rgbw_1b3c0100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW 1b3c0100 level, light_color, on_off
+      hs_color:
+      - 360
+      - 0
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_a19_rgbw_1fcc0100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW 1fcc0100 level, light_color, on_off
+      hs_color:
+      - 315
+      - 0
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_a19_rgbw_254a0100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW 254a0100 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_a19_rgbw_df400100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW df400100 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_128a0500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 128a0500 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_237a0500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 237a0500 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_3d6f0600_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 3d6f0600 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_4d700500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 4d700500 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_7f920500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 7f920500 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_a8700600_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW a8700600 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_b04a0600_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW b04a0600 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_e8920500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW e8920500 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.ledvance_br30_rgbw_fe6f0600_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW fe6f0600 level, light_color, on_off
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_3d5897fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 3d5897fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_5891d7fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 5891d7fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_854090fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 854090fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_91c594fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 91c594fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+- id: '1589817058445'
+  name: Night Time
+  entities:
+    light.ledvance_a19_rgbw_1b3c0100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW 1b3c0100 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_a19_rgbw_1fcc0100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW 1fcc0100 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_a19_rgbw_254a0100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW 254a0100 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_a19_rgbw_df400100_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: LEDVANCE A19 RGBW df400100 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_128a0500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 128a0500 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_237a0500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 237a0500 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_3d6f0600_level_light_color_on_off:
+      brightness: 253
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 3d6f0600 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_4d700500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 4d700500 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_7f920500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW 7f920500 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_a8700600_level_light_color_on_off:
+      brightness: 253
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW a8700600 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_b04a0600_level_light_color_on_off:
+      brightness: 253
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW b04a0600 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_e8920500_level_light_color_on_off:
+      brightness: 254
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW e8920500 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+    light.ledvance_br30_rgbw_fe6f0600_level_light_color_on_off:
+      brightness: 253
+      color_temp: 666
+      friendly_name: LEDVANCE BR30 RGBW fe6f0600 level, light_color, on_off
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.612
+      - 0.374
+- id: '1589818361078'
+  name: test-night time
+  entities:
+    light.living_room_zha_group_0x0001:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: Living Room_zha_group_0x0001
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.612
+      - 0.374
+    light.matt_s_room_zha_group_0x0004:
+      brightness: 251
+      color_temp: 535
+      friendly_name: Matt's Room_zha_group_0x0004
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.mom_s_light_2:
+      brightness: 255
+      color_temp: 489.40736842105264
+      friendly_name: Mom's Light
+      max_mireds: 500
+      min_mireds: 153
+      state: 'on'
+      supported_features: 3
+    light.pete_s_room_zha_group_0x0002:
+      brightness: 254
+      color_temp: 666
+      effect_list:
+      - colorloop
+      friendly_name: Pete's Room_zha_group_0x0002
+      hs_color:
+      - 30
+      - 100
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 127
+      - 0
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.612
+      - 0.374
+    light.upstairs_hallway_zha_group_0x0003:
+      brightness: 254
+      color_temp: 365
+      friendly_name: Upstairs Hallway_zha_group_0x0003
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+- id: '1589818730787'
+  name: test-day time
+  entities:
+    light.basement_light_2:
+      brightness: 255
+      color_temp: 165.6015789473684
+      friendly_name: Basement Light
+      max_mireds: 500
+      min_mireds: 153
+      state: 'on'
+      supported_features: 3
+    light.living_room_zha_group_0x0001:
+      brightness: 254
+      color_temp: 147
+      effect_list:
+      - colorloop
+      friendly_name: Living Room_zha_group_0x0001
+      hs_color:
+      - 0
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.323
+      - 0.329
+    light.matt_s_room_zha_group_0x0004:
+      brightness: 251
+      color_temp: 142
+      friendly_name: Matt's Room_zha_group_0x0004
+      hs_color:
+      - 90
+      - 0
+      max_mireds: 666
+      min_mireds: 142
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 59
+      xy_color:
+      - 0.323
+      - 0.329
+    light.mom_s_light_2:
+      brightness: 255
+      color_temp: 165.6015789473684
+      friendly_name: Mom's Light
+      max_mireds: 500
+      min_mireds: 153
+      state: 'on'
+      supported_features: 3
+    light.pete_s_room_zha_group_0x0002:
+      brightness: 253
+      color_temp: 153
+      effect_list:
+      - colorloop
+      friendly_name: Pete's Room_zha_group_0x0002
+      hs_color:
+      - 337.5
+      - 0
+      max_mireds: 666
+      min_mireds: 153
+      off_brightness:
+      rgb_color:
+      - 255
+      - 255
+      - 255
+      state: 'on'
+      supported_features: 63
+      xy_color:
+      - 0.323
+      - 0.329
+    light.upstairs_hallway_zha_group_0x0003:
+      brightness: 254
+      color_temp: 156
+      friendly_name: Upstairs Hallway_zha_group_0x0003
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43

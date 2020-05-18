@@ -18,6 +18,14 @@ script: !include scripts.yaml
 scene: !include scenes.yaml
 
 ### INTEGRATIONS ###
+amcrest:
+  - host: !secret amcrest_IP
+    username: !secret amcrest_user
+    password: !secret amcrest_pass
+    stream_source: mjpeg
+    binary_sensors:
+      - motion_detected
+      - online
 spotcast:
   username: !secret spotify_user
   password: !secret spotify_pass
@@ -81,7 +89,11 @@ camera:
   - platform: mjpeg
     mjpeg_url: !secret wyze_cam2
     name: wyze_cam2
-  
+  - platform: mjpeg
+    mjpeg_url: !secret amcrest_url
+    username: !secret amcrest_user
+    password: !secret amcrest_pass
+    authentication: basic
 sensor:
   - platform: aftership
     api_key: !secret aftership_api

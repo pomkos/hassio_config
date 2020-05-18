@@ -1,4 +1,7 @@
 '1589470505875':
   alias: Movie Time Script
   sequence:
+  - data:
+      name: synthwave
+    service: frontend.set_theme
   - scene: scene.movie_time

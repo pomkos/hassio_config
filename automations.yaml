@@ -18,6 +18,15 @@
   - data: {}
     entity_id: light.living_room_zha_group_0x0001
     service: light.turn_off
+  - data: {}
+    entity_id: light.matt_s_room_zha_group_0x0004
+    service: light.turn_off
+  - data: {}
+    entity_id: light.mom_s_light_2
+    service: light.turn_off
+  - data:
+      name: Google Dark Theme
+    service: frontend.set_theme
 - id: '1589337275613'
   alias: Day Time
   description: ''
@@ -38,6 +47,15 @@
   - data: {}
     entity_id: light.living_room_zha_group_0x0001
     service: light.turn_off
+  - data: {}
+    entity_id: light.matt_s_room_zha_group_0x0004
+    service: light.turn_off
+  - data: {}
+    entity_id: light.mom_s_light_2
+    service: light.turn_off
+  - data:
+      name: Google Light Theme
+    service: frontend.set_theme
 - id: '1589340001071'
   alias: Wyze Test
   description: ''
@@ -100,11 +118,11 @@
     entity_id: light.mom_s_light_2
     service: light.turn_off
 - id: '1589406491402'
-  alias: Basement Autolights
+  alias: Basement Hallway Autolights
   description: ''
   trigger:
   - entity_id: binary_sensor.wyzesense_m778f9400
-    for: 00:00:02
+    for: 00:00:10
     from: 'off'
     platform: state
     to: 'on'
@@ -122,14 +140,11 @@
   description: ''
   trigger:
   - entity_id: binary_sensor.wyzesense_m77850632
-    for: 00:00:02
+    for: 00:00:05
     from: 'off'
     platform: state
     to: 'on'
-  condition:
-  - after: '18:00'
-    before: 07:30
-    condition: time
+  condition: []
   action:
   - data: {}
     entity_id: light.upstairs_hallway_zha_group_0x0003
