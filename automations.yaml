@@ -122,7 +122,7 @@
   description: ''
   trigger:
   - entity_id: binary_sensor.wyzesense_m778f9400
-    for: 00:00:10
+    for: 00:00:02
     from: 'off'
     platform: state
     to: 'on'
@@ -131,10 +131,16 @@
   - data: {}
     entity_id: light.basement_light_2
     service: light.turn_on
-  - delay: 00:05:00
+  - data: {}
+    entity_id: switch.ewelink_sa_003_zigbee_f01e521f_on_off
+    service: switch.turn_on
+  - delay: 00:10:00
   - data: {}
     entity_id: light.basement_light_2
     service: light.turn_off
+  - data: {}
+    entity_id: switch.ewelink_sa_003_zigbee_f01e521f_on_off
+    service: switch.turn_off
 - id: '1589503644352'
   alias: Upstairs Hallway Autolights
   description: ''
