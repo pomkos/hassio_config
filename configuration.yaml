@@ -26,6 +26,9 @@ amcrest:
     binary_sensors:
       - motion_detected
       - online
+      
+speedtestdotnet:
+
 spotcast:
   username: !secret spotify_user
   password: !secret spotify_pass
@@ -97,8 +100,6 @@ camera:
 sensor:
   - platform: aftership
     api_key: !secret aftership_api
-  - platform: google_wifi
-    host: '192.168.1.1'
   - platform: plex_recently_added
     token: !secret plex_token
     host: 192.168.1.241
