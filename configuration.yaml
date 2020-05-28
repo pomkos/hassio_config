@@ -43,6 +43,12 @@ amcrest:
     binary_sensors:
       - motion_detected
       - online
+
+nextcloud:
+  url: !secret nextcloud_url
+  username: !secret nextcloud_user
+  password: !secret nextcloud_app_pass
+  
 speedtestdotnet:
 
 # spotcast:
@@ -74,6 +80,10 @@ wyzeapi:
   # light: true
   # switch: true
   
+zoneminder:
+  - host: '192.168.1.34'
+    path: '/zm/'
+  
 ### NOTIFIER ###
 notify:
   - name: notify_me
@@ -98,6 +108,7 @@ binary_sensor:
     device: auto
 
 camera:
+  - platform: zoneminder
   - platform: generic
     still_image_url: https://d1941uuft27pfg.cloudfront.net/breed-uploads/2018/08/munchkin-card-small.jpg?bust=1535569704
     stream_source: !secret camera_url
@@ -142,4 +153,5 @@ sensor:
     latitude: !secret latitude
     longitude: !secret longitude
     altitude: 0
+  - platform: zoneminder
 stream:
