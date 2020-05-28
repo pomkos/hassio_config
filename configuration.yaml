@@ -22,16 +22,32 @@ amcrest:
   - host: !secret amcrest_IP
     username: !secret amcrest_user
     password: !secret amcrest_pass
-    stream_source: mjpeg
+    name: Amcrest Front Camera
+    stream_source: snapshot
     binary_sensors:
       - motion_detected
       - online
-      
+  - host: !secret amcrest_left_IP
+    username: !secret amcrest_left_user
+    password: !secret amcrest_left_pass
+    name: Amcrest Left Camera
+    stream_source: snapshot
+    binary_sensors:
+      - motion_detected
+      - online
+  - host: !secret amcrest_right_IP
+    username: !secret amcrest_right_user
+    password: !secret amcrest_right_pass
+    name: Amcrest Right Camera
+    stream_source: snapshot
+    binary_sensors:
+      - motion_detected
+      - online
 speedtestdotnet:
 
-spotcast:
-  username: !secret spotify_user
-  password: !secret spotify_pass
+# spotcast:
+#  username: !secret spotify_user
+#  password: !secret spotify_pass
   
 spotify:
   client_id: !secret spotify_id
@@ -92,11 +108,11 @@ camera:
   - platform: mjpeg
     mjpeg_url: !secret wyze_cam2
     name: wyze_cam2
-  - platform: mjpeg
-    mjpeg_url: !secret amcrest_url
-    username: !secret amcrest_user
-    password: !secret amcrest_pass
-    authentication: basic
+#  - platform: mjpeg
+#    mjpeg_url: !secret amcrest_url
+#    username: !secret amcrest_user
+#    password: !secret amcrest_pass
+#    authentication: basic
 sensor:
   - platform: aftership
     api_key: !secret aftership_api

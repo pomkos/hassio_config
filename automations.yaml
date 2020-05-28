@@ -3,7 +3,6 @@
   description: Lights are more pleasing at night
   trigger:
   - event: sunset
-    offset: +00:10:00
     platform: sun
   condition: []
   action:
@@ -113,10 +112,16 @@
   - data: {}
     entity_id: light.basement_hall_light
     service: light.turn_on
+  - data: {}
+    entity_id: switch.zigbee_basement_steps
+    service: switch.turn_on
   - delay: 00:10:00
   - data: {}
     entity_id: light.basement_hall_light
     service: light.turn_off
+  - data: {}
+    entity_id: switch.zigbee_basement_steps
+    service: switch.turn_off
 - id: '1589503644352'
   alias: Upstairs Hallway Autolights ON
   description: ''
