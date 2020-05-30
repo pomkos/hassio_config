@@ -23,6 +23,9 @@
   - data: {}
     entity_id: light.mom_s_light_2
     service: light.turn_off
+  - data: {}
+    entity_id: light.upstairs_bathroom_zha_group_0x0006
+    service: light.turn_off
   - data:
       name: Google Dark Theme
     service: frontend.set_theme
@@ -51,6 +54,9 @@
     service: light.turn_off
   - data: {}
     entity_id: light.mom_s_light_2
+    service: light.turn_off
+  - data: {}
+    entity_id: light.upstairs_bathroom_zha_group_0x0006
     service: light.turn_off
   - data:
       name: Google Light Theme

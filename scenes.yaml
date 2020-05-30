@@ -143,7 +143,7 @@
   entities:
     light.ledvance_a19_rgbw_1b3c0100_level_light_color_on_off:
       brightness: 254
-      color_temp: 640
+      color_temp: 328
       effect_list:
       - colorloop
       friendly_name: LEDVANCE A19 RGBW 1b3c0100 level, light_color, on_off
@@ -164,7 +164,7 @@
       - 0.329
     light.ledvance_a19_rgbw_1fcc0100_level_light_color_on_off:
       brightness: 254
-      color_temp: 646
+      color_temp: 359
       effect_list:
       - colorloop
       friendly_name: LEDVANCE A19 RGBW 1fcc0100 level, light_color, on_off
@@ -344,10 +344,50 @@
       min_mireds: 142
       state: unavailable
       supported_features: 59
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_006c8dfe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 006c8dfe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_1f858dfe_level_light_color_on_off:
+      brightness: 250
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 1f858dfe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_28ed9dfe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 28ed9dfe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
     light.the_home_depot_ecosmart_zbt_a19_cct_bulb_3d5897fe_level_light_color_on_off:
       brightness: 254
       color_temp: 153
       friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 3d5897fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_482d90fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 482d90fe level, light_color,
         on_off
       max_mireds: 370
       min_mireds: 153
@@ -384,12 +424,32 @@
       off_brightness:
       state: 'on'
       supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b4d094fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb b4d094fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b5b894fe_level_light_color_on_off:
+      brightness: 254
+      color_temp: 153
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb b5b894fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
 - id: '1589817058445'
   name: Night Time
   entities:
     light.ledvance_a19_rgbw_1b3c0100_level_light_color_on_off:
       brightness: 254
-      color_temp: 640
+      color_temp: 319
       effect_list:
       - colorloop
       friendly_name: LEDVANCE A19 RGBW 1b3c0100 level, light_color, on_off
@@ -410,7 +470,7 @@
       - 0.388
     light.ledvance_a19_rgbw_1fcc0100_level_light_color_on_off:
       brightness: 254
-      color_temp: 646
+      color_temp: 319
       effect_list:
       - colorloop
       friendly_name: LEDVANCE A19 RGBW 1fcc0100 level, light_color, on_off
@@ -431,7 +491,7 @@
       - 0.388
     light.ledvance_a19_rgbw_254a0100_level_light_color_on_off:
       brightness: 254
-      color_temp: 646
+      color_temp: 258
       effect_list:
       - colorloop
       friendly_name: LEDVANCE A19 RGBW 254a0100 level, light_color, on_off
@@ -452,7 +512,7 @@
       - 0.388
     light.ledvance_a19_rgbw_df400100_level_light_color_on_off:
       brightness: 254
-      color_temp: 655
+      color_temp: 246
       effect_list:
       - colorloop
       friendly_name: LEDVANCE A19 RGBW df400100 level, light_color, on_off
@@ -473,7 +533,7 @@
       - 0.388
     light.ledvance_br30_rgbw_128a0500_level_light_color_on_off:
       brightness: 254
-      color_temp: 636
+      color_temp: 237
       friendly_name: LEDVANCE BR30 RGBW 128a0500 level, light_color, on_off
       hs_color:
       - 30
@@ -492,7 +552,7 @@
       - 0.388
     light.ledvance_br30_rgbw_237a0500_level_light_color_on_off:
       brightness: 254
-      color_temp: 643
+      color_temp: 237
       friendly_name: LEDVANCE BR30 RGBW 237a0500 level, light_color, on_off
       hs_color:
       - 30
@@ -517,7 +577,7 @@
       supported_features: 59
     light.ledvance_br30_rgbw_4d700500_level_light_color_on_off:
       brightness: 254
-      color_temp: 643
+      color_temp: 240
       friendly_name: LEDVANCE BR30 RGBW 4d700500 level, light_color, on_off
       hs_color:
       - 30
@@ -536,7 +596,7 @@
       - 0.388
     light.ledvance_br30_rgbw_7f920500_level_light_color_on_off:
       brightness: 254
-      color_temp: 646
+      color_temp: 224
       friendly_name: LEDVANCE BR30 RGBW 7f920500 level, light_color, on_off
       hs_color:
       - 30
@@ -567,7 +627,7 @@
       supported_features: 59
     light.ledvance_br30_rgbw_e8920500_level_light_color_on_off:
       brightness: 254
-      color_temp: 655
+      color_temp: 256
       friendly_name: LEDVANCE BR30 RGBW e8920500 level, light_color, on_off
       hs_color:
       - 30
@@ -591,17 +651,55 @@
       state: unavailable
       supported_features: 59
     light.mom_s_step_light:
-      brightness: 206.55
-      color_temp: 500
       friendly_name: Mom's Step Light
       max_mireds: 500
       min_mireds: 153
-      state: 'on'
+      state: unavailable
       supported_features: 3
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_006c8dfe_level_light_color_on_off:
+      brightness: 101
+      color_temp: 370
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 006c8dfe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_1f858dfe_level_light_color_on_off:
+      brightness: 106
+      color_temp: 370
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 1f858dfe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_28ed9dfe_level_light_color_on_off:
+      brightness: 108
+      color_temp: 370
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 28ed9dfe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
     light.the_home_depot_ecosmart_zbt_a19_cct_bulb_3d5897fe_level_light_color_on_off:
       brightness: 254
       color_temp: 370
       friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 3d5897fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_482d90fe_level_light_color_on_off:
+      brightness: 108
+      color_temp: 370
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 482d90fe level, light_color,
         on_off
       max_mireds: 370
       min_mireds: 153
@@ -632,6 +730,26 @@
       brightness: 254
       color_temp: 370
       friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb 91c594fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b4d094fe_level_light_color_on_off:
+      brightness: 105
+      color_temp: 370
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb b4d094fe level, light_color,
+        on_off
+      max_mireds: 370
+      min_mireds: 153
+      off_brightness:
+      state: 'on'
+      supported_features: 43
+    light.the_home_depot_ecosmart_zbt_a19_cct_bulb_b5b894fe_level_light_color_on_off:
+      brightness: 109
+      color_temp: 370
+      friendly_name: The Home Depot Ecosmart-ZBT-A19-CCT-Bulb b5b894fe level, light_color,
         on_off
       max_mireds: 370
       min_mireds: 153
