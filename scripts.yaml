@@ -5,3 +5,24 @@
       name: synthwave
     service: frontend.set_theme
   - scene: scene.movie_time
+  - data: {}
+    entity_id: switch.zigbee_ground_hallway_1
+    service: switch.turn_off
+'1590942012709':
+  alias: Unmovie Time Script
+  sequence:
+  - scene: scene.lr_day_time
+'1591020148787':
+  alias: Day  Time Script
+  sequence:
+  - scene: scene.day_time
+  - data:
+      name: Google Light Theme
+    service: frontend.set_theme
+'1591020215400':
+  alias: Night Time Script
+  sequence:
+  - scene: scene.night_time
+  - data:
+      name: Google Dark Theme
+    service: frontend.set_theme

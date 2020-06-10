@@ -98,11 +98,11 @@
   condition: []
   action:
   - data: {}
-    entity_id: light.mom_s_step_light
+    entity_id: light.the_home_depot_ecosmart_zbt_a19_cct_bulb_e5522dfe_level_light_color_on_off
     service: light.turn_on
   - delay: 00:03:00
   - data: {}
-    entity_id: light.mom_s_step_light
+    entity_id: light.the_home_depot_ecosmart_zbt_a19_cct_bulb_e5522dfe_level_light_color_on_off
     service: light.turn_off
 - id: '1589406491402'
   alias: Basement Hallway Autolights
@@ -240,39 +240,13 @@
   condition: []
   action:
   - data: {}
-    entity_id: light.guest_bath
+    entity_id: light.guest_bathroom_zha_group_0x0005
     service: light.turn_on
 - id: '1590008765314'
   alias: Guest Bathroom Autolights OFF
   description: ''
   trigger:
   - entity_id: binary_sensor.wyze_contact_guest_bath
-    from: 'on'
-    platform: state
-    to: 'off'
-  condition: []
-  action:
-  - data: {}
-    entity_id: light.guest_bath
-    service: light.turn_off
-- id: '1590009850077'
-  alias: Basement Study Autolights ON
-  description: ''
-  trigger:
-  - entity_id: binary_sensor.wyze_contact_study
-    from: 'off'
-    platform: state
-    to: 'on'
-  condition: []
-  action:
-  - data: {}
-    entity_id: switch.zigbee_study
-    service: switch.turn_on
-- id: '1590009971251'
-  alias: Basement Study Autolights OFF
-  description: ''
-  trigger:
-  - entity_id: binary_sensor.wyze_contact_study
     for: 00:05:00
     from: 'on'
     platform: state
@@ -280,8 +254,8 @@
   condition: []
   action:
   - data: {}
-    entity_id: switch.zigbee_study
-    service: switch.turn_off
+    entity_id: light.guest_bathroom_zha_group_0x0005
+    service: light.turn_off
 - id: '1590248187373'
   alias: Upstairs Hallway Autolights OFF
   description: ''
@@ -299,3 +273,16 @@
   - data: {}
     entity_id: light.upstairs_hallway_zha_group_0x0003
     service: light.turn_off
+- id: '1591285230282'
+  alias: Trash Day Reminder
+  description: ''
+  trigger:
+  - entity_id: sensor.trash_day
+    from: '2'
+    platform: state
+    to: '1'
+  condition: []
+  action:
+  - data:
+      message: Don't forget to take out the trash today!
+    service: notify.notify_autobot_channel
